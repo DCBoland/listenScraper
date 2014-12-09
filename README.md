@@ -7,4 +7,4 @@ TODO:
 - Add a pipeline (can just use -o for now)
 
 USAGE:
-scrapy crawl lastfm -a apikey=YOURAPIKEY -a user=lastfmuser -o listens.json -L INFO
+scrapy crawl lastfm -a apikey=YOURAPIKEY -a user=lastfmuser -o listens.json -a loginUser=yourusername -a loginPassword=yourpassword -L INFO
